@@ -34,7 +34,7 @@ const About = () => {
           <i className="fas fa-id-badge me-2"></i> About Me
         </div>
 
-        <h2 className="fw-bold">Hey, I'm [Your Name]</h2>
+        <h2 className="fw-bold">Hey, I'm PITAKARAMYAKRISHNA</h2>
 
         <p className="about-text mt-3">
           I'm a <span className="highlight">MERN Stack Developer</span> based in [Your Location]. I bring the
