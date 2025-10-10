@@ -1,0 +1,55 @@
+import React from "react";
+import { useNavigate, Link } from "react-router-dom";
+import mernlogo from '../images/mernlogo.png';
+
+function Brand() {
+  const navigate = useNavigate();
+
+  const contact = () => {
+    navigate("/Contact.jsx");
+  };
+
+  const resume = () => {
+    navigate("/Skills.jsx");
+  };
+
+  return (
+    <div className="container py-5">
+      <div className="row align-items-center">
+        {/* Left side - Text content */}
+        <div className="col-md-6">
+          <p className="intro fs-5">Hi, my name is <strong>Pitaka Ramyakrishna</strong></p>
+          <h2 className="tagline fw-bold">I build things for the web.</h2>
+          <p className="description mt-3">
+            I’m a fresher MERN Stack Developer passionate about building full-stack web applications. I’ve worked with <strong>React.js, Node.js, Express.js, MongoDB,</strong> along with <strong>JavaScript, HTML, CSS,</strong> to create responsive frontends and scalable backends. I’m eager to start my career, contribute to real projects, and keep learning new technologies.
+          </p>
+          {/* Buttons in one line */}
+          <div className="d-flex mt-4">
+            <Link to="contactpage">
+              <button className="btn btn-primary rounded-pill me-2" onClick={contact}>
+                <i className="bi bi-telephone-fill text-white"></i> CONTACT ME
+              </button>
+            </Link>
+            <Link to="resumepage">
+              <button className="btn btn-success rounded-pill" onClick={resume}>
+                <i className="bi bi-download text-white"></i> Download Resume
+              </button>
+            </Link>
+          </div>
+        </div>
+
+        {/* Right side - Image */}
+        <div className="col-md-6 text-center">
+          <img
+            src={mernlogo}
+           
+            className="img-fluid rounded-circle border border-info p-2"
+            style={{ width: "450px", height: "450px" }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Brand;
