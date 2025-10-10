@@ -37,7 +37,7 @@ const About = () => {
         <h2 className="fw-bold">Hey, I'm PITAKARAMYAKRISHNA</h2>
 
         <p className="about-text mt-3">
-          I'm a <span className="highlight">MERN Stack Developer</span> based in [Your Location]. I bring the
+          I'm a <span className="highlight">MERN Stack Developer</span>,I bring the
           <span className="highlight"> logic of engineering </span> and the
           <span className="highlight"> creativity of design </span>
           to every project. I specialize in building responsive, user-friendly web applications using MongoDB, Express, React, and Node.js.
