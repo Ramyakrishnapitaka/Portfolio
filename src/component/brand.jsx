@@ -19,7 +19,6 @@ function Brand() {
         {/* Left side - Text content */}
         <div className="col-md-6">
           <p className="intro fs-5">Hi, my name is <strong>Pitaka Ramyakrishna</strong></p>
-          <h2 className="tagline fw-bold">I build things for the web.</h2>
           <p className="description mt-3">
             I’m a fresher MERN Stack Developer passionate about building full-stack web applications. I’ve worked with <strong>React.js, Node.js, Express.js, MongoDB,</strong> along with <strong>JavaScript, HTML, CSS,</strong> to create responsive frontends and scalable backends. I’m eager to start my career, contribute to real projects, and keep learning new technologies.
           </p>
