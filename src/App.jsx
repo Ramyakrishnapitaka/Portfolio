@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./component/Navbar"
 import { Outlet } from "react-router"
 import { Link } from "react-router-dom"
-import radhikapic from './images/Radhika.jpg'
+
 
 function App() {
   return (
