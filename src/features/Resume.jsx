@@ -1,4 +1,4 @@
-import ramyaresume from "../pdf/ramya krishna pitaka resume.pdf";
+import ramyaresume from "../pdf/ramya krishna pitaka resume77.pdf";
 function Resume() {
   return (
     <div className="container mt-5">
