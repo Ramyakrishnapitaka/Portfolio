@@ -1,72 +1,17 @@
 import React from "react";
 import "../App.css";
 
-function Project() {
+function Projects() {
   return (
     <div className="project-container mt-5">
 
-      {/* COURSE TRACKER PROJECT */}
-     
-      
-       <div className="project-card">
-         <h2 className="text-primary mb-3">Form Validation Project</h2>
-         <h5 className="text-muted">React, Formik, Yup | Self-employed | Completed in 10 days</h5>
-         <hr />
-
-         <ul className="list-unstyled project-details">
-           <li>
-             <i className="bi bi-ui-checks-grid text-info me-2"></i>
-             Developed a <strong>dynamic employee form</strong> with Formik to manage form state and submissions.
-           </li>
-           <li>
-             <i className="bi bi-shield-lock-fill text-info me-2"></i>
-             Applied <strong>Yup validation</strong> for name, ID, project ID, file uploads, and comments.
-           </li>
-           <li>
-             <i className="bi bi-arrows-expand text-info me-2"></i>
-             Implemented <strong>conditional rendering</strong> for location selection based on offshore/onshore.
-           </li>
-           <li>
-             <i className="bi bi-check2-square text-info me-2"></i>
-             Added multi-select checkboxes for technologies and validated file uploads.
-           </li>
-           <li>
-             <i className="bi bi-table text-info me-2"></i>
-             Displayed submitted data in a clean, responsive table.
-           </li>
-         </ul>
-
-         <div className="tech-stack mt-3">
-           <h6>Technologies Used:</h6>
-           <span className="badge bg-primary me-2">React</span>           <span className="badge bg-success me-2">Formik</span>           <span className="badge bg-info text-dark me-2">Yup</span>
-           <span className="badge bg-warning text-dark me-2">Bootstrap</span>
-           <span className="badge bg-secondary text-white">CSS</span>         </div>       <div className="mt-3">
-         <a
-            href="https://github.com/Ramyakrishnapitaka/ReactFormwithFormikLibrary"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline-warning m-2"
-          >
-            View GitHub Code
-          </a>
-          <a
-            href="https://relaxed-malasada-47e47c.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline-primary"
-          >
-            View Live Project
-          </a>
-        </div>
-      </div>
-  
-       <div className="project-card">
+      {/* Course App Project */}
+      <div className="project-card mb-5">
         <h2 className="text-primary mb-3">Course UpSkilled App</h2>
         <h5 className="text-muted">
-          React, React Router, Context API | Self-employed | Completed in 1 day
+          React, React Router, Context API | Self-employed | Completed in 3 day
         </h5>
         <hr />
-
         <ul className="list-unstyled project-details">
           <li>
             <i className="bi bi-bookmark-check-fill text-info me-2"></i>
@@ -89,7 +34,6 @@ function Project() {
             Implemented routing using <strong>React Router</strong> for course details and dashboard views.
           </li>
         </ul>
-
         <div className="tech-stack mt-3">
           <h6>Technologies Used:</h6>
           <span className="badge bg-primary me-2">React</span>
@@ -98,10 +42,9 @@ function Project() {
           <span className="badge bg-warning text-dark me-2">Bootstrap</span>
           <span className="badge bg-secondary text-white">CSS</span>
         </div>
-
         <div className="mt-3">
           <a
-            href="https://github.com/Ramyakrishnapitaka/React-Course-Project/blob/main" // replace with your actual repo
+            href="https://github.com/Ramyakrishnapitaka/React-Course-Project"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-warning m-2"
@@ -109,7 +52,7 @@ function Project() {
             View GitHub Code
           </a>
           <a
-            href="https://react-upskilledcourse-project.onrender.com" // replace with your live link
+            href="https://react-upskilledcourse-project.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-primary"
@@ -119,9 +62,74 @@ function Project() {
         </div>
       </div>
 
-      
+      {/* Feedback App Project */}
+      <div className="project-card">
+        <h2 className="text-primary mb-3">Full-Stack Feedback Management App</h2>
+        <h5 className="text-muted">
+          MERN Stack | Self-employed | Completed in 3 days
+        </h5>
+        <hr />
+        <ul className="list-unstyled project-details">
+          <li>
+            <i className="bi bi-person-check-fill text-info me-2"></i>
+            Implemented secure user authentication with signup and login using bcrypt.
+          </li>
+          <li>
+            <i className="bi bi-chat-left-text-fill text-info me-2"></i>
+            Users can submit, edit, and delete feedback with comments.
+          </li>
+          <li>
+            <i className="bi bi-reply-fill text-info me-2"></i>
+            Admin can reply to user feedback in real-time.
+          </li>
+          <li>
+            <i className="bi bi-palette-fill text-info me-2"></i>
+            Dynamic color-coded feedback based on rating for better visualization.
+          </li>
+          <li>
+            <i className="bi bi-layers-fill text-info me-2"></i>
+            Form validation handled with Formik & Yup for robust user input.
+          </li>
+        </ul>
+        <div className="tech-stack mt-3">
+          <h6>Technologies Used:</h6>
+          <span className="badge bg-primary me-2">React.js</span>
+          <span className="badge bg-success me-2">Node.js</span>
+          <span className="badge bg-info text-dark me-2">Express</span>
+          <span className="badge bg-warning text-dark me-2">MongoDB</span>
+          <span className="badge bg-secondary text-white">Formik & Yup</span>
+          <span className="badge bg-dark me-2">CSS</span>
+        </div>
+        <div className="mt-3">
+          <a
+            href="https://github.com/Ramyakrishnapitaka/FeedbackBackend"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-warning m-2"
+          >
+            View GitHub Backend
+          </a>
+          <a
+            href="https://github.com/Ramyakrishnapitaka/FeedbackFrontend"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-info m-2"
+          >
+            View GitHub Frontend
+          </a>
+          <a
+            href="https://fullstackfeedbackapplication.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-primary"
+          >
+            View Live Project
+          </a>
+        </div>
+      </div>
+
     </div>
   );
 }
 
-export default Project;
+export default Projects;
