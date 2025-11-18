@@ -117,14 +117,7 @@ function Projects() {
           >
             View GitHub Frontend
           </a>
-          <a
-            href="https://fullstackfeedbackapplication.onrender.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline-primary"
-          >
-            View Live Project
-          </a>
+         
         </div>
       </div>
 
